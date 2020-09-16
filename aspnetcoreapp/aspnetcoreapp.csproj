@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Version>0.0.1</Version>
     <DeployableModule>aspnetcoreapp</DeployableModule>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
