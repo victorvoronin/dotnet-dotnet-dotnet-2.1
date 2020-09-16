@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace dotnet_dotnet_dotnet_2._1
+namespace aspnetcoreapp
 {
     public class Startup
     {

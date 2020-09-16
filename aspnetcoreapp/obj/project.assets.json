@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj",
-      "projectName": "dotnet-dotnet-dotnet-2.1",
-      "projectPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj",
+      "projectUniqueName": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\New folder\\dotnet-dotnet-dotnet-2.1\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectName": "aspnetcoreapp",
+      "projectPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\New folder\\dotnet-dotnet-dotnet-2.1\\aspnetcoreapp\\aspnetcoreapp.csproj",
       "packagesPath": "C:\\Users\\Mykola_Marusenko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\obj\\",
+      "outputPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\New folder\\dotnet-dotnet-dotnet-2.1\\aspnetcoreapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
