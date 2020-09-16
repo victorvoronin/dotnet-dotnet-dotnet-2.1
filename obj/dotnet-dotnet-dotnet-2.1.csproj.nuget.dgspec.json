@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\myApp\\myApp.csproj": {}
+    "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\myApp\\myApp.csproj": {
+    "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\myApp\\myApp.csproj",
-        "projectName": "myApp",
-        "projectPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\myApp\\myApp.csproj",
+        "projectUniqueName": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj",
+        "projectName": "dotnet-dotnet-dotnet-2.1",
+        "projectPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\dotnet-dotnet-dotnet-2.1.csproj",
         "packagesPath": "C:\\Users\\Mykola_Marusenko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\myApp\\obj\\",
+        "outputPath": "C:\\Users\\Mykola_Marusenko\\Desktop\\EPMD-EDP\\temp\\dotnet-dotnet-dotnet-2.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -39,6 +39,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",
