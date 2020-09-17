@@ -5,7 +5,6 @@
     <Version>0.0.1</Version>
     <DeployableModule>aspnetcoreapp</DeployableModule>
     <IsPackable>true</IsPackable>
-    <GenerateProgramFile>false</GenerateProgramFile>
     <SonarQubeTestProject>true</SonarQubeTestProject>
   </PropertyGroup>
 
