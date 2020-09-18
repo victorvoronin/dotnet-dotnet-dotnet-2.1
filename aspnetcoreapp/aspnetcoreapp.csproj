@@ -5,6 +5,7 @@
     <Version>0.0.1</Version>
     <DeployableModule>aspnetcoreapp</DeployableModule>
     <IsPackable>true</IsPackable>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
   </PropertyGroup>
 
   <ItemGroup>
