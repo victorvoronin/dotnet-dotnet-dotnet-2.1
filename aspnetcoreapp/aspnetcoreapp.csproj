@@ -6,6 +6,7 @@
     <DeployableModule>aspnetcoreapp</DeployableModule>
     <IsPackable>true</IsPackable> 
     <GenerateProgramFile>false</GenerateProgramFile>
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
