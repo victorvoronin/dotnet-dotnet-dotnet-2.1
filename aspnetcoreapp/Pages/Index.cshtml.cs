@@ -11,7 +11,7 @@ namespace aspnetcoreapp.Pages
     {
         public void OnGet()
         {
-
+          // Empty because it is just an empty application
         }
     }
 }
