@@ -32,7 +32,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
-    #searchPatternPush: '$(Build.ArtifactStagingDirectory)/*.nupkg;!$(Build.ArtifactStagingDirectory)/*.Tests.nupkg'
+    searchPatternPush: '(Build.ArtifactStagingDirectory)/Output/*'
     feedPublish: 'victorsvoronin'
 
 - task: Bash@3
