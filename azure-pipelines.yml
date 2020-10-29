@@ -29,6 +29,11 @@ steps:
     #zipAfterPublish: true
     #modifyOutputPath: true
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    artifactName: 'coreApp'
+
 - task: Bash@3
   displayName: Check artifacts
   inputs:
