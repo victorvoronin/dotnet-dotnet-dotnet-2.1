@@ -38,5 +38,5 @@ steps:
   displayName: Check artifacts
   inputs:
     script: |
-      ls -l /home/vsts/work/1/a/
+      pwd
   
