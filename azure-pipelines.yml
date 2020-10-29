@@ -28,6 +28,13 @@ steps:
     arguments: '-o $(Build.ArtifactStagingDirectory)/Output'
     zipAfterPublish: true
     modifyOutputPath: true
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'push'
+    #searchPatternPush: '$(Build.ArtifactStagingDirectory)/*.nupkg;!$(Build.ArtifactStagingDirectory)/*.Tests.nupkg'
+    feedPublish: 'victorsvoronin'
+
 - task: Bash@3
   displayName: Check artifacts
   inputs:
