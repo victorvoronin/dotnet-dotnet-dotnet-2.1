@@ -39,5 +39,4 @@ steps:
   inputs:
     script: |
       ls -l /home/vsts/work/1/a/
-      #ls -l $(Build.ArtifactStagingDirectory)/Output/
   
