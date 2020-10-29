@@ -34,9 +34,5 @@ steps:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'coreApp'
 
-- task: Bash@3
-  displayName: Check artifacts
-  inputs:
-    script: |
-      pwd
+
   
