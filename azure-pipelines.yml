@@ -35,4 +35,4 @@ steps:
     artifactName: 'coreApp'
 
 - bash: |
-    echo Test
+    echo $(pwd)
