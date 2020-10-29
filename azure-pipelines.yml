@@ -18,3 +18,19 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.sln'
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet publish'
+  inputs:
+    command: publish
+    publishWebProjects: false
+    projects: '**/*.sln'
+    arguments: '-o $(Build.ArtifactStagingDirectory)/Output'
+    zipAfterPublish: true
+    modifyOutputPath: true
+- task: DotNetCoreCLI@2
+  displayName: Push artifacts to feed
+  inputs:
+    command: 'push'
+    searchPatternPush: '$(Build.ArtifactStagingDirectory)/*.nupkg;!$(Build.ArtifactStagingDirectory)/*.Tests.nupkg'
+    feedPublish: 'FabrikamFeed'
