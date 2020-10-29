@@ -26,8 +26,8 @@ steps:
     publishWebProjects: false
     projects: '**/*.sln'
     arguments: '-o $(Build.ArtifactStagingDirectory)/Output'
-    zipAfterPublish: true
-    modifyOutputPath: true
+    #zipAfterPublish: true
+    #modifyOutputPath: true
 
 - task: DotNetCoreCLI@2
   inputs:
