@@ -36,3 +36,5 @@ steps:
 
 - bash: |
     echo $(pwd)
+    ls -al $(pwd)
+    ls -al $(Build.ArtifactStagingDirectory)
