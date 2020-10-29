@@ -33,6 +33,6 @@ steps:
   displayName: Check artifacts
   inputs:
     script: |
-      ls -l $(Build.ArtifactStagingDirectory)
+      ls -l /home/vsts/work/1/a/Output/s/
       ls -l $(Build.ArtifactStagingDirectory)/Output/
   
